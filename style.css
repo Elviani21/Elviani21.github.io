@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica;
+    text-aligh: left;
+    background-image: url(images\(3\).jpg);
+    background-size: contain;
+
+
+}
+
+h1{
+    color: rgb(78, 6, 126);
+
+}
+h2{
+    color: rgb(176, 22, 165);
+}
+p{
+    font: bold;
+    font-family: Arial;
+    color: rgb(rgb(189, 16, 16), green, blue);
+}
+/* Tambahan styling untuk tabel */
+table {
+    width: 50%; /* Atur lebar tabel agar tidak terlalu lebar */
+    margin: 2px auto; /* Agar tabel berada di tengah */
+    border-collapse: collapse; /* Menghilangkan jarak antar garis */
+    background-color: white; /* Warna latar tabel */
+}
+
+th, td {
+    border: 5px solid rgb(11, 12, 11); /* Garis batas tabel */
+    padding: 15px; /* Ruang dalam sel */
+    text-align: center; /* Pusatkan teks dalam sel */
+}
+
+th {
+    background-color: rgb(197, 125, 193); /* Warna latar header tabel */
+    color: white; /* Warna teks header */
+}
+
+tr:nth-child(even) {
+    background-color: #fdfbfb; /* Warna selang-seling untuk baris */
+}
